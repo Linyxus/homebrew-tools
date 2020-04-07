@@ -1,4 +1,4 @@
-class CFVC < Formula
+class Cfvc < Formula
     desc "A simple tool for cloning Codeforces contests onto Virtual Judge, in one line"
     homepage "https://github.com/Linyxus/cfvc"
     url "https://github.com/Linyxus/cfvc/releases/download/v0.0.1/cfvc-v0.0.1-osx.tar.gz"
@@ -11,6 +11,6 @@ class CFVC < Formula
     end
 
     test do
-        system "#{bin}/cfvc --help"
+        system "#{bin}/cfvc", "--help"
     end
 end
