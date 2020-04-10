@@ -7,7 +7,7 @@ class BaidupcsGo < Formula
     bottle :unneeded
 
     def install
-        mv "BaiduPCS-Go" "baidupcs"
+        mv "BaiduPCS-Go", "baidupcs"
         bin.install "baidupcs"
     end
 
